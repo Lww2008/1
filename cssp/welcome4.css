@@ -1,0 +1,73 @@
+
+.body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    background-color: #000;
+    display: block;
+    overflow: hidden;
+}
+
+.link a {
+    margin-right: 24px;
+    color: #888;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #FFF;
+}
+
+.links {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 50%;
+}
+
+.logo {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    color: #FFF;
+    filter: Alpha(opacity=50);
+    -moz-opacity: 5;
+    opacity: 0.5;
+}
+
+.logo img {
+    width: 32px;
+}
+
+.bg {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg img {
+    position: relative;
+    height: 100%;
+    left: -50%;
+    filter: Alpha(opacity=50);
+    -moz-opacity: 5;
+    opacity: 0.5;
+}
+
+.shinian {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.shinian img {
+    width: 80%;
+    filter: Alpha(opacity=50);
+    -moz-opacity: 5;
+    opacity: 0.5;
+}

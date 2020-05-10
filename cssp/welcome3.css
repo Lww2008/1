@@ -1,0 +1,89 @@
+
+.body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: Microsoft Yahei UI light, Microsoft Yahei, Î¢ÈíÑÅºÚ, Arial, helvetica;
+    font-size: 1em;
+    background-color: #000;
+    display: block;
+    line-height:40px;
+}
+
+.link a {
+    margin-right: 24px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #FFF;
+}
+
+.links {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10%;
+}
+
+.bg {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bg img {
+    text-align: center;
+
+    height: 120%;
+}
+
+.logo {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    color: #FFF;
+    filter: Alpha(opacity=50);
+    -moz-opacity: 5;
+    opacity: 0.5;
+}
+
+.logo img {
+    position: relative;
+    top: -2px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+.shinian {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.shinian img {
+    width: 50%;
+    filter: Alpha(opacity=50);
+    -moz-opacity: 5;
+    animation: fgmove 2s;
+}
+
+@keyframes fgmove {
+    from {
+        left: -15%;
+        width: 60%;
+        filter: blur(5px);
+    }
+    to {
+        left: 0%;
+        width: 50%;
+        filter: blur(0px);
+    }
+}
