@@ -12,7 +12,7 @@
 <meta http-equiv="Page-Enter" content="revealTrans(duration=5.0,transition=8)"><!--滤镜特效-->
 <meta name="csrf-token" content="" /><!--网页防伪标记-->
 <meta name="referrer" content="always" /><!--网页推荐-->
-<meta itemprop="dateUpdate" content="2020-06-3 13:09:00" /><!--网页更新时间-->
+<meta itemprop="dateUpdate" content="2020-06-3 13:22:00" /><!--网页更新时间-->
 <meta name="renderer" content="webkit" /><!--网页渲染器-->
 <meta name="force-rendering" content="webkit" /><!--网页渲染技术-->
 <meta name="Copyright" content="5.0.0" /> <!-- 网站版权 -->
@@ -44,7 +44,9 @@ body{
     right: 0;
     text-align: center;
 }
-
+.links{
+    margin-top: 10%;
+}
 .link a {
     line-height: 40px;
     color: #fff;
@@ -56,8 +58,11 @@ body{
     
 @media screen and ( max-width: 1000px ) {
     /*主体自适应*/
-    #titleH1{
-        font-size: 0.8em;
+    #titleH1,.link a,pre{
+        font-size: +1.7em;
+    }
+    .link a{
+        line-height: +85px;
     }
 }
 .shinian p::before{
